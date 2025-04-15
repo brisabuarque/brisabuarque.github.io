@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotless Brechó</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <h1 class="fade-in vidaloka-regular" style="font-size: 3rem; text-align: center;">SPOTLESS <br> <span
+            class="no-italic" style="margin-right: -0.1rem; font-size: 2rem; position: relative; top: -0.77em;">ꔫ</span>
+        <span style="position: relative; top: -0.3em; margin-left: 20px;">BRECHÓ</span>
+        <span class="no-italic"
+            style="margin-right: 1rem; font-size: 2rem; position: relative; top: -0.77em; left: 15px;">ꔫ</span>
+    </h1>
+    <h3 class="fade-in asap-italic" style="font-size: 1.4rem; text-align: center;">CALCULE A MÉDIA DO FRETE <br> <span
+            style="margin-left: 22px;">PARA A
+            SUA CASA!</span> <span class="no-italic">✧.*</span>
+    </h3>
+    <div class="frete-box fade-in">
+        <label for="cep">Digite seu CEP:</label>
+        <input type="text" id="cep" placeholder="Ex: 12345-678" />
+        <button onclick="calcularFrete()" class="fade-in">Calcular Frete</button>
+        <div class="resultado" id="resultado"></div>
+    </div>
+    <h3 class="fade-in asap-italic">
+        <i class="fab fa-instagram"
+            style="margin-right: 4px; font-size: 1.5rem; vertical-align: -2px;"></i>@SPOTLESSBRECHO NO INSTAGRAM <span
+            class="no-italic">❤︎</span>
+    </h3>
+    <script src="script.js"></script>
+</body>
+
+</html>
